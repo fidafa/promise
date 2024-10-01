@@ -1,0 +1,171 @@
+.navbar{
+  background-color: #002147;
+ }
+ #list{
+   color:#E7E8D1;
+   margin-right: 10px;
+   font-size: 18px;
+   font-weight: 500;
+ 
+ }
+ .navbar-button{
+   background-color:#002147;
+   border-radius: 10px;
+   border: 2px solid wheat;
+ padding:10px;
+ padding-right: 40px;
+ padding-left: 40px;
+ color: white;
+ margin-left: 200px;
+ }
+
+ @media screen and (max-width:840px) {
+  .navbar-button{
+    background-color:#002147;
+    border-radius: 10px;
+    border: 2px solid wheat;
+  padding:10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: white;
+  margin-top: 10px;
+  margin-left: -10px;
+  
+  }
+   
+  }
+  #toggle-btn{
+    background-color:lightblue;
+  }
+ .navbar-button:hover{
+   background-color: #A7BEAE;
+ }
+
+ .dropdown {
+  display: none;
+  padding-left: 20px;
+  color: white;
+list-style: none;
+background-color:#234060;
+}
+
+.dropdown li {
+  margin: 5px 0;
+  color: white;
+  font-size: 14px;
+}
+.dropdown li a{
+  list-style: none;
+  text-decoration: none;
+  color: #dbdbcc;
+  font-weight: 800;
+}
+
+ .server-img img{
+  max-width: 100%;
+  height: 100%;
+  
+ }
+ .server-content{
+  background-color:#002147;
+  color: white;
+ }
+ @media screen and (max-width:840px) {
+  .server-content{
+    background-color:#002147;
+    color: white;
+    margin-bottom: 20px;
+  
+   }
+   .slide{
+   
+   margin-left: -40px;
+   
+   }
+   
+  }
+ .server-content h1{
+  color: #b3bdca;
+  
+ }
+ .server-content p{
+  line-height: 30px;
+  margin-top: 30px;
+ }
+
+ /* .slide img{
+  width: 100%;
+  margin-left: 160px;
+ } */
+.server-inner-img img{
+  width: 30% ;
+}
+ .footer{
+  /* background-color: #B85042; */
+  background-color: #002147;
+  color: #E7E8D1;
+  
+}
+
+.footer-heading{
+  margin-top: 10px;
+}
+
+
+.footer-icons i{
+  padding-left: 6%;
+ 
+}
+.footer-icons{
+  margin-left: 30%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+ 
+}
+.footer-no{
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.footer-list{
+  margin-left: 30%;
+}
+.footer-list ul{
+  margin-left: -30px;
+  line-height: 30px;
+}
+.footer-list ul li{
+  list-style: none;
+}
+
+.footer-button{
+  width: 100px;
+  background-color: #A7BEAE;
+  border: 0px;
+}
+
+.email{
+  padding: 10px;
+  border: 0px;
+}
+.footer-content{
+   margin-left: 70%;
+  margin-top: -41px;
+}
+
+@media screen and (max-width:840px) {
+  .footer-icons{
+   margin-left: -2px;
+  }
+  .footer-list{
+    margin-left: -5px;
+  
+  }
+  .copy-right p{
+   font-size: 12px;
+  } 
+  .footer-content{
+    margin-top: -10px;
+    margin-left: -4px;
+    font-size: 14px;
+  }
+  }

@@ -1,0 +1,230 @@
+.navbar{
+  background-color: #002147;
+ }
+ #list{
+   color:#E7E8D1;
+   margin-right: 10px;
+   font-size: 18px;
+   font-weight: 500;
+ 
+ }
+ .navbar-button{
+   background-color:#002147;
+   border-radius: 10px;
+   border: 2px solid wheat;
+ padding:10px;
+ padding-right: 40px;
+ padding-left: 40px;
+ color: white;
+ margin-left: 200px;
+ 
+ }
+ @media screen and (max-width:840px) {
+  .navbar-button{
+    background-color:#002147;
+    border-radius: 10px;
+    border: 2px solid wheat;
+  padding:10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: white;
+  /* margin-top: -100px;
+  margin-left: 100px; */
+  margin-top: 10px;
+  margin-left: -10px;
+  }
+  }
+  #toggle-btn{
+    background-color:lightblue;
+  }
+ 
+ .navbar-button:hover{
+   background-color: #A7BEAE;
+ }
+ 
+ .dropdown {
+   display: none;
+   padding-left: 20px;
+   color: white;
+ list-style: none;
+ background-color:#234060;
+ 
+ }
+ 
+ .dropdown li {
+   margin: 5px 0;
+   color: white;
+   font-size: 14px;
+  
+ 
+ }
+ .dropdown li a{
+   list-style: none;
+   text-decoration: none;
+   color: #dbdbcc;
+   font-weight: 800;
+ }
+
+ .bg-1{
+  background: url(https://www.promisegulf.com/wp-content/uploads/2024/03/banner05.jpg);
+   height: 100px;
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.page-title{
+  padding: 200px 0px 180px 0px;
+}
+.overlay{
+  position: absolute;
+ min-width: 100%;
+ min-height: 100%;
+ margin-top: -200px;
+  background: rgba(15, 3, 62, 0.7);
+
+}
+
+.contact-heading h1{
+  font-size:40px;
+  font-weight: 900;
+  color: #002147;
+  margin-top: 70px;
+  background-color:lightblue;
+  padding: 50px;
+}
+@media screen and (max-width:840px) {
+  .contact-heading h1{
+    margin-top: 10px;
+  }
+  }
+
+.bg-content{
+  color: white;
+  padding-left: 10%;
+  padding-top: 130px;
+ 
+} 
+.bg-content h1{
+  font-weight: 900;
+}
+.bg-content p a{
+  text-decoration: none;
+  color: white;
+}
+.form-1 input{
+ 
+  margin-top: 15px;
+  height: 50px;
+  color: #252525;
+  border: 1px solid #0071dc;
+  background-color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 0;
+  font-weight: 500;
+}
+.form-1 textarea{
+  margin-top: 15px;
+  height: 150px;
+  color: #252525;
+  border: 1px solid #0071dc;
+  background-color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 0;
+  font-weight: 500;
+}
+.table-1{
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+.button{
+    padding: 16px 62px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #002147;
+    border-color:lightblue ;
+    font-family: cooper,black;
+}
+
+@media screen and (max-width:840px) {
+  .button{
+    padding: 16px 94px;
+}
+  }
+
+
+.footer{
+  /* background-color: #B85042; */
+  background-color: #002147;
+  color: #E7E8D1;
+  
+}
+
+.footer-heading{
+  margin-top: 10px;
+}
+
+
+.footer-icons i{
+  padding-left: 6%;
+ 
+}
+.footer-icons{
+  margin-left: 30%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+ 
+}
+.footer-no{
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.footer-list{
+  margin-left: 30%;
+}
+.footer-list ul{
+  margin-left: -30px;
+  line-height: 30px;
+}
+.footer-list ul li{
+  list-style: none;
+}
+
+.footer-button{
+  width: 100px;
+  background-color: #A7BEAE;
+  border: 0px;
+}
+
+.email{
+  padding: 10px;
+  border: 0px;
+}
+.footer-content{
+  margin-left: 70%;
+  margin-top: -41px;
+}
+@media screen and (max-width:840px) {
+  .footer-icons{
+   margin-left: -2px;
+  }
+  .footer-list{
+    margin-left: -5px;
+  
+  }
+  .copy-right p{
+   font-size: 12px;
+  } 
+  .footer-content{
+    margin-top: -10px;
+    margin-left: -4px;
+    font-size: 14px;
+  }
+  }

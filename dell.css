@@ -1,0 +1,249 @@
+.navbar{
+  background-color: #002147;
+ }
+ #list{
+   color:#E7E8D1;
+   margin-right: 10px;
+   font-size: 18px;
+   font-weight: 500;
+ 
+ }
+ .navbar-button{
+   background-color:#002147;
+   border-radius: 10px;
+   border: 2px solid wheat;
+ padding:10px;
+ padding-right: 40px;
+ padding-left: 40px;
+ color: white;
+ margin-left: 200px;
+ 
+ }
+ .navbar-button:hover{
+   background-color: #A7BEAE;
+ }
+ @media screen and (max-width:840px) {
+  .navbar-button{
+    background-color:#002147;
+    border-radius: 10px;
+    border: 2px solid wheat;
+  padding:10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: white;
+  /* margin-top: -100px;
+  margin-left: 100px; */
+  margin-top: 10px;
+  margin-left: -10px;
+  
+  }
+   
+  }
+
+  #toggle-btn{
+    background-color:lightblue;
+  }
+  .dropdown {
+    display: none;
+    padding-left: 20px;
+    color: white;
+  list-style: none;
+  background-color:#234060;
+  }
+  
+  .dropdown li {
+    margin: 5px 0;
+    color: white;
+    font-size: 14px;
+  }
+  .dropdown li a{
+    list-style: none;
+    text-decoration: none;
+    color: #dbdbcc;
+    font-weight: 800;
+  }
+.bg-1{
+  background: url(https://www.promisegulf.com/wp-content/uploads/2024/03/banner05.jpg);
+   height: 100px;
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.page-title{
+  padding: 200px 0px 180px 0px;
+}
+.overlay{
+  position: absolute;
+ min-width: 100%;
+ min-height: 100%;
+ margin-top: -200px;
+  background: rgba(15, 3, 62, 0.7);
+
+}
+
+.bg-content{
+  color: white;
+  margin-top: 150px;
+ 
+}
+.bg-content h1{
+   font-size: 60px; 
+   font-family: Exo,sans-serif;
+   font-weight: 700;
+} 
+
+.card-heading{
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: black;
+}
+.card-heading a{
+  text-decoration: none;
+  color: black;
+}
+.game-card {
+  float: left;
+  padding: 0 1.7rem;
+  max-height:300px;
+ 
+}
+.data{
+  background:rgba(0,0,0,0.6);
+}
+.game-card .wrapper {
+ background-color:#002147;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+  box-sizing:border-box;
+}
+.game-card .wrapper:hover .data {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.game-card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateY(calc(80px + 1em));
+          transform: translateY(calc(80px + 1em));
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.game-card .data .content {
+  padding: 3%;
+  position: relative;
+  z-index: 1;
+}
+
+.game-card .title {
+  margin-top: 10px;
+  margin-bottom:70px;
+  /* margin-left:50px; */
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media screen and (max-width:840px) {
+  .card-heading{
+    font-size: 24px;
+   margin: 0;
+  }
+   
+  }
+
+.bg-games{
+  max-width: 100%;
+}
+
+.card-model .data {
+  color: #fff;
+  -webkit-transform: translateY(calc(80px + 4em));
+          transform: translateY(calc(80px + 4em));
+}
+.card-model .title a {
+  color: #fff;
+}
+
+.footer{
+  /* background-color: #B85042; */
+  background-color: #002147;
+  color: #E7E8D1;
+  
+}
+
+.footer-heading{
+  margin-top: 10px;
+}
+
+
+.footer-icons i{
+  padding-left: 6%;
+ 
+}
+.footer-icons{
+  margin-left: 30%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+ 
+}
+.footer-no{
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.footer-list{
+  margin-left: 30%;
+}
+.footer-list ul{
+  margin-left: -30px;
+  line-height: 30px;
+}
+.footer-list ul li{
+  list-style: none;
+}
+
+.footer-button{
+  width: 100px;
+  background-color: #A7BEAE;
+  border: 0px;
+}
+
+.email{
+  padding: 10px;
+  border: 0px;
+}
+.footer-content{
+  margin-left: 70%;
+  margin-top: -41px;
+}
+
+
+@media screen and (max-width:840px) {
+  .footer-icons{
+   margin-left: -2px;
+  }
+  .footer-list{
+    margin-left: -5px;
+  
+  }
+  .copy-right p{
+   font-size: 12px;
+  } 
+  .footer-content{
+    margin-top: -10px;
+    margin-left: -4px;
+    font-size: 14px;
+  }
+  }
+
+
+
+
+
